@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/processing.js"></script>
+          <script src="js/acceleration.js"></script>
+  
+    </head>
+<body>
+  
+<script type="application/processing">
+
+void setup() {
+  size(window.innerWidth,window.innerHeight);
+  frameRate(50);
+  
+}
+
+void draw() {
+  background(255,255,255);
+  fill(0,0,0);
+  ellipse(mouseX,mouseY,50,50);
+  fill(0,0,0);
+  text(aceleracionX,100,100);
+
+
+}
+
+
+</script>
+<canvas ></canvas></p>
+
+
+</body>
+</html>
